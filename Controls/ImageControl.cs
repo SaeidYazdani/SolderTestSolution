@@ -22,7 +22,7 @@ namespace SolderTestSolution.Controls
 
             pbTopLeft.SizeMode = pbTopRight.SizeMode 
                 = pbBottomLeft.SizeMode = pbBottomRight.SizeMode 
-                = PictureBoxSizeMode.AutoSize;
+                = PictureBoxSizeMode.StretchImage;
         }
 
         /// <summary>

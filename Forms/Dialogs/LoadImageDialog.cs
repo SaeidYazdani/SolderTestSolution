@@ -105,6 +105,8 @@ namespace SolderTestSolution.Forms.Dialogs
         {
             InitializeComponent();
 
+            buttonAccept.Enabled = false;
+
             _buttonTopLeft.Click += delegate
             {
                 _buttonTopLeft.Tag = FileTopLeft = ShowFileDialog();
